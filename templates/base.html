@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}認証プロジェクト{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex flex-col">
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-6 py-3">
+            <h1 class="text-2xl font-semibold text-gray-800">認証プロジェクト</h1>
+        </nav>
+    </header>
+    <main class="flex-grow container mx-auto px-6 py-8">
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer class="bg-white shadow-md mt-8">
+        <div class="container mx-auto px-6 py-3 text-center text-gray-600">
+            &copy; 2025 認証プロジェクト. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
