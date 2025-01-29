@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+</head>
+
+<body>
+    <h1>Login with GitHub</h1>
+    <a href="{% url 'social:begin' 'github' %}?next={{ request.GET.next|default:'/home/' }}">
+        Login with GitHub
+    </a>
+</body>
+
+</html>

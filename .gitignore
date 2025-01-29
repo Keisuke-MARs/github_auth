@@ -1,0 +1,104 @@
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# 環境変数
+.env
+
+# 仮想環境
+venv/
+env/
+.venv/
+
+# IDEやエディタの設定ファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# 静的ファイル収集ディレクトリ（もし使用している場合）
+/static/
+
+# メディアファイル（ユーザーがアップロードしたファイル）
+/media/
+
+# バックアップファイル
+*.bak
+
+# テストカバレッジ
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
